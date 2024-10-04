@@ -52,7 +52,7 @@ using namespace std;
 // }
 
 
-//Peak Element in mountain array
+//Peak Element in mountain array ....Easy
 
 int PeakElement(int arr[],int n){
     int s=0;
