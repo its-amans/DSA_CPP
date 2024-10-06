@@ -85,6 +85,7 @@ using namespace std;
 //         }
 //         mid=s+(e-s)/2;
 //     }
+//     cout<<s <<endl;
 //     return s;
 // }
 // int binarySearch(int arr[],int s,int e,int k){
@@ -111,7 +112,7 @@ using namespace std;
 //     }
 // }
 // int main(){
-//     int arr[]={7,8,1,3,5};
+//     int arr[]={11, 3, 4, 5, 6, 7, 8, 9 };
 //     int n=sizeof(arr)/sizeof(arr[0]);
 //     int k;
 //     cout<<"Enter the Elements to Serach"<<endl;
