@@ -322,3 +322,28 @@ using namespace std;
 //     sortarr(arr,n);
 //     printarray(arr,n);
 // }
+
+
+// Sort 0,1,2
+
+//Dutch national Flag Algorithm
+// void sort012(vector<int>& arr) {
+//         // code here
+//         int s=0;
+//         int mid=0;
+//         int e=arr.size()-1;
+//         while(s<=e){
+//             if(arr[mid]==0){
+//                 swap(arr[mid],arr[s]);
+//                 s++;
+//                 mid++;
+//             }
+//             else if(arr[mid]==2){
+//                 swap(arr[mid],arr[e]);
+//                 e--;
+//             }
+//             else{
+//                 mid++;
+//             }
+//         }
+//     }

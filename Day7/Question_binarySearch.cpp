@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// //First and Last Occurence
+// //Find no of occurence of element (using First and Last Occurence )
 
 
 // int firstOccurence(int arr[],int s,int e,int k){
@@ -13,7 +13,7 @@ using namespace std;
 //             ans=mid;
 //             e=mid-1;
 //         }
-//         else if(k<arr[mid]){
+//         else if(arr[mid]>k){
 //             e=mid-1;
 //         }
 //         else{
@@ -31,7 +31,7 @@ using namespace std;
 //             ans=mid;
 //             s=mid+1;
 //         }
-//         else if(k<arr[mid]){
+//         else if(arr[mid]>k){
 //             e=mid-1;
 //         }
 //         else{
@@ -54,23 +54,23 @@ using namespace std;
 
 //Peak Element in mountain array ....Easy
 
-int PeakElement(int arr[],int n){
-    int s=0;
-    int e=n-1;
-    int mid=s+(e-s)/2;
-    while(s<e){ //Here s=e will be repeated again again so not taken
-        if(arr[mid]<arr[mid+1]){
-            s=mid+1;
-        }
-        else{
-            e=mid;
-        }
-        mid=s+(e-s)/2;
-    }
-    return arr[mid];
-}
-int main(){
-    int arr[]={0,2,1,0};
-    int n=sizeof(arr)/sizeof(arr[0]);
-    cout<<PeakElement(arr,n);
-}
+// int PeakElement(int arr[],int n){
+//     int s=0;
+//     int e=n-1;
+//     int mid=s+(e-s)/2;
+//     while(s<e){ //Here s=e will be repeated again again so not taken
+//         if(arr[mid]<arr[mid+1]){
+//             s=mid+1;
+//         }
+//         else{
+//             e=mid;
+//         }
+//         mid=s+(e-s)/2;
+//     }
+//     return arr[mid];
+// }
+// int main(){
+//     int arr[]={0,2,1,0};
+//     int n=sizeof(arr)/sizeof(arr[0]);
+//     cout<<PeakElement(arr,n);
+// }
